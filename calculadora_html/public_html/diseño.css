@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-feb-2019, 8:17:21
+    Author     : anten
+*/
+
+
+textArea{
+    font-style:normal ;
+    font-size: 15px;
+    text-align:right;
+    
+    font: arial;
+    resize: none;
+}
+button:hover {
+  background-color: blueviolet;
+}
+
+table{
+    border-style:solid;
+    border-radius: 5px;
+    border-color: #33ff00;
+    border-width: 10px;
+    background-color: #33ff00;
+}
+button{
+    width: 40px;
+    resize: none;
+    background-color: #33ffff;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="diseño.css">
+        <script language="JavaScript" type="text/javascript" src="logica.js"></script>
+    </head>
+    
+    <body>
+        <header><h1>Calculadora</h1></header>
+        <div>
+            <table class="calcu">
+                <tr>
+                    <td colspan="4">
+                        <textarea id="panta" name="pantalla" rows="1" cols="20" readonly="readonly"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button name="1" type="button" onclick="pintar(name)">1</button></td>
+                    <td><button name="2" type="button" onclick="pintar(name)">2</button></td>
+                    <td><button name="3" type="button" onclick="pintar(name)">3</button></td>
+                    <td><button name="+" type="button" onclick="pintar(name)">+</button></td>
+                </tr>
+                <tr>
+                    <td><button name="4" type="button" onclick="pintar(name)">4</button></td>
+                    <td><button name="5" type="button"onclick="pintar(name)">5</button></td>
+                    <td><button name="6" type="button"onclick="pintar(name)">6</button></td>
+                    <td><button name="-" type="button"onclick="pintar(name)">-</button></td>
+                </tr>
+                <tr>
+                    <td><button name="7" type="button" onclick="pintar(name)">7</button></td>
+                    <td><button name="8" type="button" onclick="pintar(name)">8</button></td>
+                    <td><button name="9" type="button" onclick="pintar(name)">9</button></td>
+                    <td><button name="*" type="button" onclick="pintar(name)">*</button></td>
+                </tr>
+                <tr>
+                    <td><button name="0" type="button" onclick="pintar(name)">0</button></td>
+                    <td><button name="=" type="button" id="igual" onclick="calcular()">=</button></td>
+                    <td><button name="c" type="button" onclick="borrar()">C</button></td>
+                    <td><button name="/" type="button" onclick="pintar(name)">/</button></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
